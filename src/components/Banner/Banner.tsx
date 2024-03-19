@@ -17,6 +17,7 @@ const Banner = () => {
 				</div>
 				<div className="image-container">
 					<Image
+                    className='banner-image'
 						src="/images/banner-image.svg"
 						alt="banner image"
 						width={400}

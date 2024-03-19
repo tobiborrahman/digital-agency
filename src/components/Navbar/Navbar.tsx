@@ -1,17 +1,20 @@
+import Image from 'next/image';
+
 const Navbar = () => {
 	return (
 		<section className="container">
 			<nav className="navbar">
 				<div>
-					<h2>Digital Agency</h2>
+					<h2 className="logo">Digital Agency</h2>
 				</div>
 
 				<div className="menu-icon">
-					<svg viewBox="0 0 80 70" width="40" height="40">
-						<rect width="70" height="10"></rect>
-						<rect y="20" width="70" height="10"></rect>
-						<rect y="40" width="70" height="10"></rect>
-					</svg>
+					<Image
+						src="/images/menu.svg"
+						alt="menu icon"
+						width={20}
+						height={15.595}
+					/>
 				</div>
 
 				<ul className="list-items">

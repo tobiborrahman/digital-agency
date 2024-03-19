@@ -6,7 +6,6 @@
 
 body {
 	max-width: 1248px;
-	max-height: 873px;
 	margin: 20px auto;
 }
 
@@ -21,6 +20,16 @@ body {
 	align-items: center;
 }
 
+.logo {
+	color: #272d38;
+	font-family: Inter;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-transform: uppercase;
+}
+
 .list-items {
 	list-style-type: none;
 	display: flex;
@@ -28,40 +37,76 @@ body {
 	gap: 20px;
 }
 
+.list-items li {
+	color: #272d38;
+	font-family: Inter;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 27.5px; /* 152.778% */
+	text-transform: lowercase;
+}
+
 .menu-icon {
+	width: 20px;
+	height: 15.595px;
+	flex-shrink: 0;
 	display: none; /* Hide the menu icon by default */
 }
 
 /* banner styles */
 .banner-container {
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
+	margin-top: 171px;
+	margin-bottom: 188px;
+	display: flex;
+	justify-content: space-between;
 	align-items: center;
-	margin: 15px 0;
 }
 
 .banner-title {
-	max-width: 430px;
-	font-size: 48px;
-	font: bold;
+	width: 540px;
+
+	color: #272d38;
+
+	font-family: Inter;
+	font-size: 64px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 100%;
 	text-transform: capitalize;
 }
 
 .banner-para {
+	width: 519.633px;
+	height: 49px;
+	flex-shrink: 0;
+	color: #272d38;
+	font-family: Inter;
 	font-size: 18px;
-	color: gray;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 27.5px;
 	text-transform: capitalize;
-	margin: 30px 0;
+	margin-top: 24px;
+	margin-bottom: 46px;
 }
 
 .banner-btn {
-	padding: 10px 25px;
-	background-color: #8eadd5;
+	width: 165.293px;
+	height: 48px;
+	flex-shrink: 0;
 	border: none;
-	border-radius: 6px;
+	border-radius: 8px;
+	background: #8eadd5;
+
+	color: #fff;
+	text-align: center;
+	font-family: Inter;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 27.5px; /* 171.875% */
 	text-transform: uppercase;
-	font: medium;
-	color: white;
 }
 
 .image-container {
@@ -70,60 +115,122 @@ body {
 	align-items: center;
 }
 
+.banner-image {
+	width: 445.4px;
+	height: 450px;
+	flex-shrink: 0;
+}
+
+/* company styles */
+
 .company-container {
-	max-width: 80%;
-	background: #f6f6f6;
-	padding: 20px 15px;
+	width: 915px;
+	height: 86px;
 	margin: 0 auto;
-	border-radius: 5px;
+	margin-bottom: 100px;
 }
 
 .company {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	flex-shrink: 0;
+	padding: 24px 6px 24px 24px;
+	border-radius: 8px;
+	background: #f6f6f6;
+}
+
+.company-para {
+	color: #667085;
+	font-family: Inter;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 100%;
+	text-transform: capitalize;
+	text-align: center;
+	margin-bottom: 16px;
 }
 
 /* Media Query for smaller screens */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 428px) {
 	body {
-		max-width: auto;
-		max-height: auto;
-		margin: 20px auto;
-	}
-
-	.container {
-		margin: 0 10px;
+		margin: 25px auto;
 	}
 
 	.navbar {
-		text-align: center;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.container {
+		margin: 20px 20px;
 	}
 
 	.list-items {
-		flex-direction: column; /* Stack list items vertically */
+		flex-direction: column;
 	}
 
 	.banner-container {
-		grid-template-columns: 1fr;
-		margin-top: 50px;
+		flex-direction: column;
 	}
 
 	.banner-desc {
 		text-align: center;
 	}
 
-	.banner-image {
-		max-width: 300px;
-		height: 500px;
-	}
-
 	.banner-title {
-		max-width: 100%;
+		width: 378px;
+		color: #272d38;
+		text-align: center;
+		font-family: Inter;
 		font-size: 40px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 100%; /* 40px */
+		text-transform: capitalize;
 	}
 
-	.company {
+	.banner-para {
+		width: 378px;
+		height: 56px;
+		flex-shrink: 0;
+		color: #272d38;
+		text-align: center;
+		font-family: Inter;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 27.5px;
+		text-transform: capitalize;
+	}
+
+	.banner-btn {
+		width: 140px;
+		height: 35px;
+		flex-shrink: 0;
+		border-radius: 8px;
+		background: #8eadd5;
+
+		color: #fff;
+		text-align: center;
+		font-family: Inter;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 600;
+		line-height: 27.5px;
+		text-transform: uppercase;
+	}
+
+	.banner-image {
+		width: 358px;
+		height: 358px;
+		flex-shrink: 0;
+		margin-top: 48px;
+	}
+
+	.company-container {
 		display: none;
 	}
 
@@ -134,15 +241,6 @@ body {
 	}
 
 	.list-items {
-		flex-direction: column;
-		position: absolute;
-		top: 100%;
-		left: 0;
-		width: 100%;
-		background-color: #fff;
-		border: 1px solid #ccc;
-		border-top: none;
-		padding: 10px;
 		display: none;
 	}
 }

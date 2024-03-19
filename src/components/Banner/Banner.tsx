@@ -17,11 +17,11 @@ const Banner = () => {
 				</div>
 				<div className="image-container">
 					<Image
-                    className='banner-image'
 						src="/images/banner-image.svg"
-						alt="banner image"
-						width={400}
-						height={550}
+						alt="banner model"
+						className="banner-image"
+						width={445.5}
+						height={450}
 					/>
 				</div>
 			</div>

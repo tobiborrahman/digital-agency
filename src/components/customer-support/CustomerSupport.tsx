@@ -8,13 +8,14 @@ const CustomerSupport = () => {
 				<div className="customer-support-container">
 					<div>
 						<Image
+							className="customer-support-image"
 							src="/images/customer-support.svg"
 							alt=""
 							width={450}
 							height={450}
 						/>
 					</div>
-					<div className="branding-desc-container">
+					<div className="customer-desc-container">
 						<div>
 							<h1 className="sub-heading customer-title">
 								Be a part of the next big thing
@@ -24,7 +25,9 @@ const CustomerSupport = () => {
 							We work with Brans, Startups, to SMEs. Colaborate
 							for more impact and growt
 						</p>
-						<button className="banner-btn">Contact Us</button>
+						<div className="customer-btn">
+							<button className="banner-btn">Contact Us</button>
+						</div>
 					</div>
 				</div>
 			</div>

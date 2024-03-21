@@ -8,6 +8,7 @@ const CustomSection = () => {
 				<div className="custom-container">
 					<div>
 						<Image
+							className="custom-image"
 							src="/images/custom-image.svg"
 							alt=""
 							width={450}
@@ -17,7 +18,7 @@ const CustomSection = () => {
 					<div className="branding-desc-container">
 						<div>
 							<h1 className="sub-heading">
-								Branding & Design system
+								Custome & Plugin Development
 							</h1>
 						</div>
 						<p className="sub-para">
@@ -25,11 +26,21 @@ const CustomSection = () => {
 							industries for previewing visual layout and mockups
 						</p>
 						<Image
+							className="large-image"
 							src="/images/arrow-right.svg"
 							alt="arrow icon"
 							width={22.23}
 							height={12}
 						/>
+
+						<div className="small-image">
+							<Image
+								src="/images/arrow-down.svg"
+								alt="arrow icon"
+								width={20}
+								height={25}
+							/>
+						</div>
 					</div>
 				</div>
 			</div>

@@ -13,7 +13,7 @@ const Banner = () => {
 						digital agency is your online team management tool that
 						easy and prompt
 					</p>
-					<button className="banner-btn">Contact Us</button>
+					<button className="banner-btn">Contact</button>
 				</div>
 				<div className="image-container">
 					<Image

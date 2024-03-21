@@ -127,7 +127,6 @@ body {
 	width: 915px;
 	height: 86px;
 	margin: 0 auto;
-	margin-bottom: 100px;
 }
 
 .company {
@@ -150,6 +149,123 @@ body {
 	text-transform: capitalize;
 	text-align: center;
 	margin-bottom: 16px;
+}
+
+/* branding section styles */
+.branding-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 136px;
+}
+
+.branding-desc-container {
+	width: 435px;
+}
+
+.sub-heading {
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 48px;
+	color: #272d38;
+}
+
+.sub-para {
+	max-width: 390px;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 17.5px;
+	margin-top: 25px;
+	margin-bottom: 40px;
+}
+
+/* custom section styles */
+.custom-container {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 136px;
+}
+
+/* testimonial styles */
+
+.test-container {
+	margin-top: 136px;
+}
+
+.test-header-desc {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 38px;
+}
+
+.test-para {
+	text-align: center;
+	padding-bottom: 16px;
+}
+
+.test-heading {
+	width: 435px;
+	text-align: center;
+}
+
+/* testimonial card styles */
+.card-container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 15px;
+}
+
+.card {
+	background-color: #f6f6f6;
+	border-radius: 20px;
+	align-items: center;
+	text-align: center;
+	padding: 32px;
+}
+
+.card-image {
+	border-radius: 50%;
+	border: 0.3px solid #dedcdb80;
+}
+
+.card-title {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 27.5px;
+	color: #272d38;
+	padding: 8px 0 27px 0;
+}
+
+.card-para {
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 18.2px;
+	color: #272d38;
+}
+
+/* customer support styles */
+.customer-support {
+	background-color: #f6f6f6;
+	border-radius: 20px;
+	padding: 0 75px;
+}
+
+.customer-support-container {
+	display: flex;
+	gap: 90px;
+	align-items: center;
+	margin-top: 136px;
+}
+
+.customer-title {
+	width: 361px;
+}
+
+.customer-desc {
+	width: 360px;
 }
 
 /* Media Query for smaller screens */

@@ -5,7 +5,14 @@ const Banner = () => {
 	return (
 		<>
 			<div className="banner-body">
-				<div className="background"></div>
+				<div className="background">
+					<Image
+						src="/images/overlay.svg"
+						alt="overlay"
+						width={600}
+						height={600}
+					/>
+				</div>
 				<div className="container">
 					<div className="banner-container">
 						<div className="banner-desc">

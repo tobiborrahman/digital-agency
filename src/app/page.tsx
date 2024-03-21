@@ -4,7 +4,7 @@ import HomePage from '@/view/Home/HomePage';
 
 export default function Home() {
 	return (
-		<div className="container">
+		<div>
 			<HomePage />
 		</div>
 	);

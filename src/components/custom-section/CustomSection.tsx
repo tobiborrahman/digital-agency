@@ -3,8 +3,8 @@ import React from 'react';
 
 const CustomSection = () => {
 	return (
-		<div>
-			<div>
+		<div className="custom-section">
+			<div className="container">
 				<div className="custom-container">
 					<div>
 						<Image
@@ -29,8 +29,8 @@ const CustomSection = () => {
 							className="large-image"
 							src="/images/arrow-right.svg"
 							alt="arrow icon"
-							width={22.23}
-							height={12}
+							width={25}
+							height={15}
 						/>
 
 						<div className="small-image">

@@ -3,8 +3,8 @@ import React from 'react';
 
 const BrandingSection = () => {
 	return (
-		<div>
-			<div>
+		<div className="branding-section">
+			<div className="container">
 				<div className="branding-container">
 					<div>
 						<Image
@@ -29,8 +29,8 @@ const BrandingSection = () => {
 							className="large-image"
 							src="/images/arrow-right.svg"
 							alt="arrow icon"
-							width={22.23}
-							height={12}
+							width={25}
+							height={15}
 						/>
 
 						<div className="small-image">

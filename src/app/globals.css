@@ -202,18 +202,6 @@
 	display: none;
 }
 
-/* custom section styles */
-/* .custom-section {
-	position: relative;
-}
-
-.overlay-2 {
-	position: absolute;
-	top: -350px;
-	right: -150px;
-	z-index: -1;
-} */
-
 .custom-container {
 	display: flex;
 	flex-direction: row-reverse;

@@ -198,6 +198,17 @@
 }
 
 /* custom section styles */
+/* .custom-section {
+	position: relative;
+}
+
+.overlay-2 {
+	position: absolute;
+	top: -350px;
+	right: -150px;
+	z-index: -1;
+} */
+
 .custom-container {
 	display: flex;
 	flex-direction: row-reverse;
@@ -357,7 +368,7 @@
 		flex-direction: column;
 	}
 
-	.background {
+	.overlay-image-1 {
 		width: 300px;
 		height: 300px;
 	}
@@ -488,6 +499,17 @@
 		flex-direction: column-reverse;
 		align-items: center;
 		margin-top: 120px;
+	}
+
+	.overlay-2-image {
+		width: 200px;
+		height: 200px;
+		display: none;
+	}
+
+	.overlay-2 {
+		top: 0;
+		right: -100;
 	}
 
 	/* testimonials */

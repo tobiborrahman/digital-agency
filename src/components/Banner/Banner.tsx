@@ -7,6 +7,7 @@ const Banner = () => {
 			<div className="banner-body">
 				<div className="background">
 					<Image
+					className='overlay-image-1'
 						src="/images/overlay.svg"
 						alt="overlay"
 						width={600}

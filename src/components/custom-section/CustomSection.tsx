@@ -4,15 +4,6 @@ import React from 'react';
 const CustomSection = () => {
 	return (
 		<div className="custom-section">
-			{/* <div className="overlay-2">
-				<Image
-				className='overlay-2-image'
-					src="/images/overlay-2.svg"
-					alt="overlay"
-					width={679}
-					height={679}
-				/>
-			</div> */}
 			<div className="container">
 				<div className="custom-container">
 					<div>

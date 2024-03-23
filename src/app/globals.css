@@ -5,6 +5,10 @@
 	font-family: 'Inter', sans-serif;
 }
 
+body {
+	overflow-x: hidden;
+}
+
 .container {
 	max-width: 1248px;
 	padding: 0 90px;
@@ -202,12 +206,24 @@
 	display: none;
 }
 
+/* custom styles */
+
 .custom-container {
 	display: flex;
 	flex-direction: row-reverse;
 	justify-content: space-between;
 	align-items: center;
 	margin-top: 136px;
+}
+
+.custom-section {
+	overflow: hidden;
+}
+
+.overlay-2 {
+	position: absolute;
+	right: -150px;
+	margin-top: -300px;
 }
 
 /* testimonial styles */
@@ -338,6 +354,9 @@
 
 /* Media Query for smaller screens */
 @media only screen and (max-width: 768px) {
+	body {
+		overflow-x: hidden;
+	}
 	.container {
 		padding: 0px 0px;
 	}
@@ -493,6 +512,10 @@
 	}
 
 	/* custom section  */
+	.custom-section {
+		overflow: hidden;
+	}
+
 	.custom-container {
 		display: flex;
 		flex-direction: column-reverse;
@@ -501,14 +524,13 @@
 	}
 
 	.overlay-2-image {
-		width: 200px;
-		height: 200px;
-		display: none;
+		width: 300px;
+		height: 450px;
 	}
 
 	.overlay-2 {
-		top: 0;
-		right: -100;
+		right: 0;
+		margin-top: -55px;
 	}
 
 	/* testimonials */
